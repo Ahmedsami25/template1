@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top{
+    width: 100%;
+    height: 100px;
+    display: inline-block;
+
+}
+.top ul {
+    list-style-type: none;
+    width: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: 30px;
+    left: 300px;
+   }
+   .top li {
+
+    float: left;
+
+   } 
+ .top  li a {
+    
+    display: inline;
+   
+    color: rgb(88, 86, 86);
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 50px;
+  }
+
+.top-img img{
+   
+    width:175px;
+    float: left;
+    margin: 10px 50px 20px 20px;
+  }
+  .top button{
+    width: 175px;
+    height: 50px;
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    background-color: white;
+    color: blue;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    transition: 0.7s;
+    border: 1px solid blue;
+  }
+
+  .top button:hover{
+    background-color: blue;
+    color: white;
+  }
+
+  .section1{
+    width: 100%;
+    height: 700px;
+    margin-top: 20px;
+    
+}
+
+.left{
+    width: 60%;
+    height: 100%;
+    float: left;
+
+}
+.content{
+    padding: 20px;
+
+}
+.left h2{
+    font-size: 40px;
+    line-height: 1.5;
+
+}
+.left span{
+    color: blueviolet;
+}
+.left p{
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 1.7;
+}
+
+.left button{
+    padding: 20px;
+    color: beige;
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+    border-radius: 8px;
+    font-size: 18px;
+    transition: 0.7s;
+
+}
+.left button:hover{
+    background-color: white;
+    color: blueviolet;
+}
+.right{
+    width: 40%;
+    height: 100%;
+    float: right;
+    position: relative;
+}
+.right img{
+    float: right;
+    width: 80%;
+    height: 90%;
+    
+}
+
+.section2{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+}
+.section2 p{
+    margin-top: 15px;
+    line-height: 1.5;
+}
+
+
+.section3{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+.sitem {
+    width: 20%;
+    height: 90%;
+    background-color:rgb(255, 245, 245);
+     display: inline-block;
+     margin-left: 40px;
+     border-radius: 10px;
+}
+.shapesize{
+    margin: 20px;
+    width: 75px;
+    height: 50px;
+    border-radius: 50%;
+}
+.color1{
+    background-color: rgb(138, 43, 226);
+}
+.color2{
+    background-color: rgb(240, 46, 46);
+}
+.color3{
+    background-color:rgb(28, 156, 28)
+}
+.color4{
+    background-color: rgb(14, 84, 182);
+}
+.color5{
+    background-color: rgb(212, 88, 11);
+}
+
+.scontent h3{
+
+    float: left;
+    padding-left: 20px;
+    
+}
+.scontent p{
+    margin-top: 10px;
+    float: left;
+    padding-left: 20px;
+    line-height: 1.7;
+}
+.sspan{
+    float: left;
+    padding-left: 20px;
+     margin-top: 20px;
+    color: rgb(75, 7, 139);
+    font-weight: bold;
+}
+
+
+.section4{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+
+}
+
+.section5{
+    margin-top: 50px;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+}
+.section5 p{
+    margin-top: 10px;
+    line-height: 1.7;
+}
+
+
+.section6{
+    width: 100%;
+    height: 350px;
+    text-align: center;
+}
+.news{
+    display: inline-block;
+    margin-right: 30px;
+    width: 20%;
+    height: 300px;
+    background-color:rgb(255, 245, 245);
+    border-radius: 10px;
+
+    }
+ .news img{
+    width: 100%;
+    height: 200px;
+}
+.news span{
+    float: left;
+}
+.newsdate{
+    color: rgb(54, 52, 52);
+}
+.newstext{
+    margin-left: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.section7{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+.section7 button{
+    color: white;
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+    transition: 0.7s;
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.section7 button:hover{
+    color: blueviolet;
+    background-color: white;
+}
+.section7 h2{
+    margin-top: 50px;
+}
+.section7 p{
+    margin-top: 30px;
+    line-height: 1.7;
+
+}
+
+.section8{
+    width: 100%;
+    height: 400px;
+    text-align: center;
+}
+.country{
+    width: 23%;
+    height: 350px;
+    background-color:rgb(255, 245, 245);
+    display: inline-block;
+    margin-left: 40px;
+
+}
+.country img{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 15px;
+}
+
+.country h3{
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.country p{
+    float: left;
+    margin-left: 10px;
+  line-height: 1.5;
+}
+
+.section9{
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+.section9 span{
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 40px;
+    left: 50px;
+   
+}
+.section9 button{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    color: white;
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+    transition: 0.7s;
+    width: 150px;
+    height: 60px;
+    border-radius: 7px;
+    font-size: 16px;
+}
+.section9 button:hover{
+    color: blueviolet;
+    background-color: white;
+}
+
+.footer{
+    margin-top: 20px;
+    width: 100%;
+    height: 250px;
+    background-color:darkslateblue;
+    color: white;
+
+}
+.footerdiv{
+    width: 30%;
+    height: 240px;
+    position: relative;
+    display: inline-block;
+
+}
+.footerdiv ul{
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    line-height: 2.5;
+   list-style: none;
+}
+
+.footerdiv img{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+
+}
+.footerdiv p{
+    position: absolute;
+    line-height: 1.7;
+    top: 100px;
+    left: 40px;
+
+}
+.footerdiv span{
+    position: absolute;
+    left: 40px;
+
+    top: 200px;
+}
